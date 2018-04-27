@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/frmQueues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgQueues12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_media" />
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:background="#CCCCCC"
+                android:text="Image Name"
+                android:paddingTop="10dp"
+                android:id="@+id/imgtext"
+                android:paddingRight="20dp"
+                android:textColor="#6B92AF"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:layout_width="250dp"
+                android:layout_height="50dp" />
+            <ImageView
+                android:layout_width="13dp"
+                android:src="@drawable/close"
+
+                android:id="@+id/close"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="15dp" />
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imgQueueMultiSelected2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/on_focus_checkbox"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:scaleType="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

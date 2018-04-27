@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_article_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.logischtech.smartnews.ArticleDetail">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/dashframe1"
+
+        android:background="#fff"
+
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="156dp"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <!--<ImageView-->
+            <!--android:layout_width="30dp"-->
+            <!--android:background="@drawable/menubar"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:id="@+id/btncollapse1"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Cast Device"
+        android:textSize="12dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:id="@+id/floatingbtn"
+        android:background="@drawable/off"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="310dp"
+        android:layout_height="20dp" />
+
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_marginTop="80dp"
+        android:id="@+id/webview"
+        android:layout_height="fill_parent"></WebView>
+
+</RelativeLayout>

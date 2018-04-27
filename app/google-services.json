@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1088215241981",
+    "project_id": "smartnews-180305"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088215241981:android:8dd3bb0a3714b54b",
+        "android_client_info": {
+          "package_name": "com.logischtech.smartnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088215241981-kjsbeuvemgmqhumhqrenoe440k9blg9j.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1088215241981-c165lk10ajr73n838dg0ht4vvveb33ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logischtech.smartnews",
+            "certificate_hash": "c425581e3cb72683d68cdaf44e61aea13bbeb2d9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIfUUiU27PJyMEVUY5pg2FO9GOiiiO6vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

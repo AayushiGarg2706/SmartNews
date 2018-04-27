@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SmartNews</string>
+    <string name="fbicon">&#xf231;</string>
+    <string name="twittericon">&#xf243;</string>
+    <string name="linkedicon">&#xf239;</string>
+    <string name="googleicon">&#xf235;</string>
+    <string-array name="organization_type">
+        <item>Scan</item>
+        <item>Scan Article</item>
+        <item>Scan QRcode</item>
+    </string-array>
+    <string name="prompt">Scan</string>
+    <string name="facebook_app_id">350516352063502</string>
+    <string name="CONSUMER_KEY">12AYe7MQrFeioLQw7FWFrxFZx</string>
+    <string name="CONSUMER_SECRET">VrMrhOcIvcLU1QOA0X6eeZk5CnhVEWrFCCeZQ7oqvduofBMYlN</string>
+
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+
+</resources>

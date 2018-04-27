@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose__scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/bcakground"
+    tools:context="com.logischtech.smartnews.Choose_Scan">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/dashframe1"
+
+        android:background="#fff"
+
+        android:layout_height="70dp">
+        <ImageView
+            android:layout_width="156dp"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="30dp"
+            android:background="@drawable/menubar"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btncollapse"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="142dp"
+    android:text="Scan Article "
+    android:textColor="#005A98"
+    android:textStyle="normal"
+    android:textSize="18dp"
+
+    android:background="@drawable/contentlr_layout"
+
+    android:id="@+id/scanarticle"
+    android:layout_marginRight="30dp"
+    android:layout_height="55dp">
+
+</Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="232dp"
+        android:text="Scan Ad "
+        android:textColor="#005A98"
+          android:textStyle="normal"
+        android:textSize="18dp"
+
+        android:background="@drawable/contentlr_layout"
+
+        android:id="@+id/scanad"
+        android:layout_marginRight="30dp"
+        android:layout_height="55dp">
+
+</Button>
+
+</RelativeLayout>

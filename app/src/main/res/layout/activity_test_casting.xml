@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_casting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context="com.logischtech.smartnews.TestCasting">
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:id ="@+id/cameraPreview1"
+        android:layout_height="400dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cameraPreview1"
+        android:id="@+id/txtresult1"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="Please focus camera to QR code"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

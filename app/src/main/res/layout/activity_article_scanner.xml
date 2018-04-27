@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_article_scanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005A98"
+      tools:context="com.logischtech.smartnews.ArticleScanner">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <SurfaceView
+        android:layout_width="1280dp"
+        android:id="@+id/articlescan"
+        android:layout_marginTop="0dp"
+        android:layout_height="440dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/articletxt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/articlescan"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btncameraon"
+        android:background="@drawable/contentlr_layout"
+        android:textColor="#005A98"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text ="Article Scan"
+        android:layout_below="@+id/articlescan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft= "30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

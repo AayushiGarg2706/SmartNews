@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.logischtech.smartnews">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="fullSensor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden|adjustResize">
+        <activity
+            android:name=".Splash"
+            android:windowSoftInputMode="adjustResize|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Dashboard"
+            android:noHistory="true" />
+        <activity android:name=".QRcodescanner" />
+        <activity android:name=".ArticleScanner" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <!-- <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="ocr"></meta-data> -->
+
+        <activity android:name=".QRRequest" />
+        <activity android:name=".ArticleDescription" />
+        <activity android:name=".CastToDevice" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider"
+            android:exported="true" />
+
+        <activity
+            android:name=".UserProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HomePage" />
+        <activity
+            android:name=".Secret_News"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="lumi.ACTION_PICK" /> -->
+            <!-- <action android:name="lumi.ACTION_MULTIPLE_PICK" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.twitter.sdk.android.core.identity.OAuthActivity" />
+        <activity android:name=".CustomGalleryActivity">
+            <intent-filter>
+                <action android:name="lumi.ACTION_PICK" />
+                <action android:name="lumi.ACTION_MULTIPLE_PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Secret_News_Choice" />
+        <activity android:name=".ScanAdd" />
+        <activity android:name=".Choose_Scan" />
+        <activity android:name=".ArticleDetail" />
+        <activity android:name=".CastDevicefromArticleDetail" />
+        <activity android:name=".TestCasting" />
+        <activity android:name=".QRrequesttest"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#D9D9D9</item>
+        <item name="colorPrimaryDark">#015A94</item>
+        <item name="colorAccent">#015A94</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="btn">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">15sp</item><!-- text size in menu-->
+
+        <item name="android:listPreferredItemHeightSmall">40dp</item><!-- item size in menu-->
+    </style>
+
+    <!--<style name="Spinner">-->
+        <!--<item name="android:textColor">#005A98</item>-->
+        <!--<item name="android:paddingTop"> -10dp</item>-->
+        <!--<item name="android:paddingLeft">10dp</item>-->
+    <!--</style>-->
+    <style name="facebookstyle">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+
+
+           </style>
+
+</resources>
